@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    
+    height: 1000px;
+    background: royalblue;
+}
+
+#titulo{
+    text-align: center;
+    color: green;
+}
+
+
+#subtitulo{
+    text-align: center;
+    color: green;
+}
+
+.gridContainer{
+    display: grid;
+    background: red;
+    grid-template-columns: auto;
+}
+
+.gridContainer div{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.categ{
+    display: grid;
+    background: gray;
+    grid-template-columns: auto auto;
+    
+
+}
+
+.galery{
+    display: grid;
+    background: blueviolet;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+}
+
+.dogcat{
+    width: 50%;
+    height: 130px;
+    border-radius: 20px;
+}
+.catdog{
+    width: 50%;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.dogcat:hover{
+    width: 40%;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.catdog:hover{
+    width: 40%;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.botones{
+   /* display: grid;
+    background: green;
+    grid-template-columns: auto auto auto auto;  */
+}
+.boton1{
+    
+}
+
+@media (max-width: 359px) {
+
+.dogcat{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+}
+.catdog{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+}
+.dogcat:hover{
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.catdog:hover{
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+}
+}
