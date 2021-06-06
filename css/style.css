@@ -23,16 +23,16 @@
 .gridContainer{
     display: grid;
     background: red;
-    grid-template-columns: auto;
+   /* grid-template-columns: auto;*/
 }
-
+/* Mostrar divison de grip borrar al final-*/
 .gridContainer div{
     text-align: center;
     color: white;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px  black;
 }
-
+/* Grip Categoria menu--------------------*/
 .categ{
     display: grid;
     background: gray;
@@ -41,13 +41,9 @@
 
 }
 
-.galery{
-    display: grid;
-    background: blueviolet;
-    grid-template-columns: auto auto;
-    grid-row: auto auto;
-}
+/*--------------------------------------*/
 
+/* Menu de categoria---------------------*/
 .dogcat{
     width: 50%;
     height: 130px;
@@ -70,6 +66,42 @@
     height: 120px;
     border-radius: 20px;
 }
+/*--------------------------------------*/
+
+
+/* Grip GALERIA---------------------------*/
+.galery{
+    display: grid;
+    background: blueviolet;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+}
+
+.imgdog1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.imgdog2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.imgcat1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.imgcat2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/*--------------------------------------*/
 
 .botones{
    /* display: grid;
@@ -103,4 +135,14 @@
     height: 50px;
     border-radius: 20px;
 }
+
+
+.galery{
+    display: grid;
+    background: blueviolet;
+    grid-template-columns: auto ;
+    grid-row: auto ;
+}
+
+
 }
