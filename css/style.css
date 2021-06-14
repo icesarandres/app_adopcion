@@ -140,10 +140,11 @@ max-height: 720px;
  margin: 10px 0px 0px 20%;
 }
 
-
+.mainsms{
+    height: 700px;
+}
 .footer{
-
-
+    flex-direction: row;
 }
 
 .nv9{
