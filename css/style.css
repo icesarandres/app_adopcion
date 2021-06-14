@@ -110,13 +110,8 @@ max-height: 720px;
     background: white;
     color: cornsilk;
     grid-column: span 2;
-    
 }
 
-.nav-link{
-    margin-left: 10px;
-    margin-top: 15px;
-}
 
 /*
 .contenedor .footer .icon1{
@@ -132,7 +127,18 @@ max-height: 720px;
 */
 /*Menu---------------------------------------*/
 
+.nav-link{
+    /*margin-left: 10px;
+    margin-top: 15px;*/
+    /*margin: 20px 120px 0px 40px;*/
+    margin: 20px  0px 0px 20%;
+}
 
+#navitem1, 
+#navitem2,
+#navitem3{
+ margin: 10px 0px 0px 20%;
+}
 
 
 .footer{
@@ -144,7 +150,57 @@ max-height: 720px;
     color: orange;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:860px) {
+    .nav-link{
+        margin: 20px  0px 0px 15%;
+    }
     
+    #navitem1, 
+    #navitem2,
+    #navitem3{
+     margin: 10px 0px 0px 15%;
+    }
+     
+}
+
+@media screen and (max-width:600px) {
+    @media screen and (max-width:860px) {
+        .nav-link{
+            margin: 20px  0px 0px 7%;
+        }
+        
+        #navitem1, 
+        #navitem2,
+        #navitem3{
+         margin: 10px 0px 0px 7%;
+        }
+         
+    }
     
+}
+
+
+@media screen and (max-width:400px) {
+    
+    .contenedor .footer{
+        background: white;
+        color: cornsilk;
+        grid-column: span 2;
+        width: 375px;
+        max-height: 72px;
+    } 
+
+    .nav-link{
+        /*margin-left: 10px;
+        margin-top: 15px;*/
+        margin: 10px -10px 0px 10px;
+    }
+    
+    #navitem1, 
+    #navitem2,
+    #navitem3{
+     margin: 10px 0px 0px 10px;
+    }
+
+
 }
