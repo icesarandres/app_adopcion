@@ -46,10 +46,10 @@ max-height: 720px;
 }
 
 .contenedor .titulo{
-    font-family: Nunito;
+font-family: Nunito;
 font-style: normal;
 font-weight: 800;
-font-size: 24px;
+font-size: 20px;
 line-height: 33px;
     /* identical to box height */
     
@@ -63,12 +63,12 @@ line-height: 33px;
     text-align: left;
     padding-left: 10px;
 }
-#subtitulo{
+.subtitulo{
     font-family: Nunito;
 font-style: normal;
-font-weight: 600;
+font-weight: 800;
 font-size: 18px;
-line-height: 25px;
+line-height: 33px;
 /* identical to box height */
 
 letter-spacing: 0.0015em;
@@ -178,6 +178,8 @@ color: #0E172C;
     height: 700px;
 }
 .footer{
+    position: fixed;
+    bottom: -40px;
     flex-direction: row;
 }
 
