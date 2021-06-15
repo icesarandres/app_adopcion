@@ -1,0 +1,110 @@
+
+#containeruser {
+  
+}
+form{
+    background: #1f1c4b;
+    padding: 2.10px;
+    border-radius: 15px;
+    color: rgb(236, 231, 223);
+    margin: auto;
+    position: relative;
+    left: 0%;
+align-items: center;
+    width: 327px;
+    height: 332px;
+
+}
+
+label{
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 15px;
+    font-size: 25px;
+}
+select{
+    width: 95%;
+    padding: 10px; 
+    font-size: 25px;
+    
+}
+
+
+#comentarios{
+    width: 90%;
+    max-width: 90%;
+    max-height: 200px;
+    padding: 10px; 
+    font-size: 25px;
+}
+
+@media (max-width: 750px) {
+    body{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #title{
+font-size: 22px;
+}
+
+    label{
+        font-size: 18px;
+        text-align: center;
+    }
+    input{
+        width: 85%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    select{
+        width: 95%;
+        padding: 10px; 
+        font-size: 16px;
+        
+    }
+
+    .cursosn{
+        display: inline;
+        width: 10px;
+        }
+  
+  }
+  
+  @media (max-width: 450px) {
+    body{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #title{
+font-size: 22px;
+}
+
+    label{
+        font-size: 18px;
+        text-align: center;
+    }
+    input{
+        width: 85%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    select{
+        width: 95%;
+        padding: 10px; 
+        font-size: 16px;
+        
+    }
+
+    .cursosn{
+        display: inline;
+        width: 20px;
+        }
+  
+  }

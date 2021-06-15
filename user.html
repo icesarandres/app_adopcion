@@ -8,48 +8,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--------------------------------------------------------------------->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleuser.css">
     <title>Document</title>
 </head>
 <body>
     <div class="contenedor">
-        <h1 class="titulo">APP DE ADOPCION</h1>
-        <h1 id="subtitulo" class="titulo">Categorias</h1>
-        <header class="header">
-            <div class="categ1">
-                <a href="index2.html"><img id="btndog" class="catdog" src="img/perros.png"  alt="" ></a>
-            </div>
-            
-        </header>
+        <h1 class="titulo">perfil</h1>
+        
 
-        <header class="header2">
-            <div class="categ2">
+        
+        <div id="containeruser">
+            <form action="" id="userform">
 
-                <a href="index2.html"><img class="catdog" src="img/gatos.png"  alt=""></a>
+                <div>
+                    <label for="name" id="name-label">Nombre</label><br>
+                    <input type="text" id="name" placeholder="Ingrese su Nombre" required="">
+                </div>
+                
+                <div>
+                    <label for="name" id="name-label">Apellido</label><br>
+                    <input type="text" id="name" placeholder="Ingrese su Apellido" required="">
+                </div>
 
-            </div>
-        </header>
+                <div>
+                    <label for="email" id="email-label">Correo</label><br>
+                    <input type="email" id="email" placeholder="ejemplo@correo.com" required="">
+                </div>
+                <br>
+                 <input type="submit" id="submit" value="Guardar">
+                 
+                 <script src="js/script.js"></script>
+            </form>
     
 
+        </div>
         
-            <div  id="contenido1" class="contenido1" style="display:none">
-                <a  href="#"><img class="" src="img/perro1.png" width="90%" height="80%" alt=""></a>
-            </div>
-            <div id="contenido2" class="contenido2" style="display:none">
-                <a  href="#"><img class="" src="img/perro2.png" width="90%" height="80%" alt=""></a>
-            </div>
 
-            <div id="contenido3" class="contenido3" style="display:none">
-                <a  href="#"><img class="" src="img/perro3.png" width="90%" height="80%" alt=""></a>
-            </div>
 
-            <div  id="contenido4" class="contenido4" style="display:none">
-                <a  href="#"><img class="" src="img/perro4.png" width="90%" height="80%" alt=""></a>
-            </div>
-        
-            <div id="espacio">
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
-        
         <footer class="footer">
             <section class="navprincipal">
                 <nav id="nav-bar">

@@ -8,11 +8,14 @@ body{
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 max-height: 720px;
+
 }
 
 .contenedor{
+    border:  2px solid black;
+    border-radius: 10px ;
     width: 100%;
-    max-width: 1000px;
+    max-width: 500px;
     margin: 20px auto;
     display: grid;
     grid-gap: 20px;
@@ -36,32 +39,60 @@ max-height: 720px;
 .contenedor .contenido2,
 .contenedor .contenido3,
 .contenedor .contenido4{
-    height: 300px;
+    height: 250px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+
 .contenedor .titulo{
-    background: gold;
-    color: black;
+    font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+    /* identical to box height */
+    
+    letter-spacing: 0.0015em;
+    
+    /* Black */
+    
+    color: #0E172C;
     grid-column-start: 1;
     grid-column-end: -1;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    padding-left: 10px;
+}
+#subtitulo{
+    font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 0.0015em;
+
+/* Black */
+
+color: #0E172C;
+
 }
 .contenedor .header{
-    background: red;
+    
     grid-column: span 1;
 }
 
 .contenedor .header2{
-    background: red;
+    
     color: black;
     grid-column: 2/2;
 }
 
+
+
 .header .categ1{
-    background: blue;
+    
     color: black;
     grid-column:span 1;
     text-align: center;
@@ -74,7 +105,7 @@ max-height: 720px;
 }
 
 .header2 .categ2{
-    background: blue;
+    
     color: black;
     grid-column:span 1;
     text-align: center;
@@ -82,28 +113,31 @@ max-height: 720px;
 }
 
 .catdog:hover{
-    width: 110px;
+    width: 75%;
 }
 
 .contenedor .contenido1{
     grid-column: span 1;
-    background: greenyellow;
+    
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 .contenedor .contenido2{
     grid-column: span 1;
-    background: greenyellow;
+    
 }
 .contenedor .contenido3{
     grid-column: span 1;
-    background: greenyellow;
+   
 }
 .contenedor .contenido4{
     grid-column: span 1;
-    background: greenyellow;
+    
 }
+
+/*-----------------------------------------*/
+
 
 
 .contenedor .footer{
@@ -151,6 +185,7 @@ max-height: 720px;
     color: orange;
 }
 
+
 @media screen and (max-width:860px) {
     .nav-link{
         margin: 20px  0px 0px 15%;
@@ -181,14 +216,18 @@ max-height: 720px;
 }
 
 
-@media screen and (max-width:400px) {
-    
+@media screen and (max-width:420px) {
+    .contenedor{
+        border:  0px solid black;
+        border-radius: 10px ;
+    }
     .contenedor .footer{
         background: white;
         color: cornsilk;
         grid-column: span 2;
-        width: 375px;
+        width: 100%;
         max-height: 72px;
+        
     } 
 
     .nav-link{
