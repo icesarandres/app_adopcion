@@ -7,7 +7,7 @@ body{
     background: #FEC7D7;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-max-height: 720px;
+    max-height: 720px;
 
 }
 
@@ -204,7 +204,7 @@ color: #0E172C;
 }
 
 @media screen and (max-width:600px) {
-    @media screen and (max-width:860px) {
+    /*@media screen and (max-width:860px) {*/
         .nav-link{
             margin: 20px  0px 0px 7%;
         }
@@ -215,7 +215,7 @@ color: #0E172C;
          margin: 10px 0px 0px 7%;
         }
          
-    }
+   /* }*/
     
 }
 
