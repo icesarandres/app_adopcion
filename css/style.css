@@ -12,11 +12,11 @@ body{
 }
 
 .contenedor{
-    border:  2px solid black;
+    border:  3px solid black;
     border-radius: 10px ;
     width: 100%;
     height: 100%;
-    max-height: 700px;
+    max-height: 900px;
     max-width: 500px;
     margin: 20px auto;
     display: grid;
@@ -173,22 +173,22 @@ color: #0E172C;
 #navitem1, 
 #navitem2,
 #navitem3{
- margin: 10px 0px 0px 20%;
+ margin: 10px 0px 0px 10%;
 }
 
 .mainsms{
     height: 700px;
 }
-.footer{
-    position: fixed;
-    bottom: 0px;
-    flex-direction: row;
-}
+
 
 .nv9{
     color: orange;
 }
-
+.footer{
+    border-radius: 0px 0px 4px 4px;
+    bottom: 0px;
+    flex-direction: row;
+}
 
 @media screen and (max-width:860px) {
     .nav-link{
@@ -198,7 +198,7 @@ color: #0E172C;
     #navitem1, 
     #navitem2,
     #navitem3{
-     margin: 10px 0px 0px 15%;
+     margin: 10px 0px 0px 10%;
     }
      
 }
@@ -212,7 +212,7 @@ color: #0E172C;
         #navitem1, 
         #navitem2,
         #navitem3{
-         margin: 10px 0px 0px 7%;
+         margin: 10px 0px 0px 10%;
         }
          
    /* }*/
@@ -220,7 +220,7 @@ color: #0E172C;
 }
 
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:440px) {
     .contenedor{
         border:  0px solid black;
         border-radius: 10px ;
@@ -246,5 +246,9 @@ color: #0E172C;
      margin: 10px 0px 0px 10px;
     }
 
-
+    .footer{
+        position: fixed;
+        bottom: 0px;
+        flex-direction: row;
+    }
 }

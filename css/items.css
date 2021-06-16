@@ -11,9 +11,16 @@ body{
 }
 
 .contenedor{
-    position: absolute;
-    
+    position:absolute;
     width: 100%;
+}
+
+@media screen and (max-width:1000) {
+    .contenedor{
+        position:relative;
+        width: 100%;
+        margin-left: 10%;
+    }
 }
 .carta{
     max-height: 700px;
@@ -284,6 +291,278 @@ color: #0E172C;
 }
 
 @media screen and (max-width:420) {
+
+    .contenedor{
+        position: absolute;
+        width: 100%;
+        
+    }
+.carta{
+    max-height: 700px;
+    max-width: 500px;
+}
+.iconback{
     
+    /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 24px;
+top: 24px;
+z-index: 1;
+/* Black */
+
+background: #0E172C;
+border-radius: 100px;
+}
+.img_carta{
+    position: absolute;
+    width: 100%;
+    height: 442px;
+    max-width: 500px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.cuerpo_carta{
+    /* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 24px;
+
+position: absolute;
+width: 100%;
+max-width: 500px;
+height: 612px;
+top:430px;
+left: 0px;
+bottom: 0px;
+
+/* White */
+
+background: #FFFFFE;
+border-radius: 16px 16px 0px 0px;
+}
+
+
+/*titulo********************/
+.titulo_carta{
+    position: static;
+width: 69px;
+height: 33px;
+left: 0px;
+top: 0px;
+
+/* Headline/Headline 1 */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* Black */
+
+color: #0E172C;
+}
+/*iconsexo********************/
+.iconsexo{
+    position: absolute;
+    left: 25%;
+    right: 0%;
+    top: 3%;
+    bottom: 0%;
+}
+/*iconlike********************/
+.iconlike{
+
+    position: absolute;
+    left: 78%;
+    right: 0%;
+    top: 1%;
+    bottom: 0%;
+}
+
+.iconraza{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
+}
+.razaitem{
+    position: absolute;
+    left: 16%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;  
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.005em;
+
+    /* Grey */
+
+    color: #535353;
+
+}
+
+.iconedad{
+    position: absolute;
+    left: 46%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;  
+}
+
+.edaditem{
+    position: absolute;
+    left: 56%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%; 
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.005em;
+
+    /* Grey */
+
+    color: #535353;
+
+}
+
+.iconmapa{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 20%;
+    bottom: 0%;
+}
+
+.mapitem{
+    position: absolute;
+    left: 16%;
+    right: 0%;
+    top: 20%;
+    bottom: 0%;  
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.005em;
+
+    /* Grey */
+
+    color: #535353;
+
+    
+}
+
+.persontituitem{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 30%;
+    bottom: 0%;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0E172C;
+
+}
+
+.persoitem{
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 35%;
+    bottom: 0%;
+}
+
+
+.histitem{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 55%;
+    bottom: 0%;
+/* Headline/Headline 2 */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* Black */
+
+color: #0E172C;
+
+}
+
+.conthist{
+    width: 90%;
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 65%;
+    bottom: 0%;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    letter-spacing: 0.005em;
+    
+    /* Grey */
+    
+    color: #535353;
+}
+
+.useritem{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 55%;
+    bottom: 0%;
+}
+
+.btnitem{
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 90%;
+    bottom: 0%;
+}
     
 }
